@@ -3,3 +3,45 @@
 /* font-family: 'Montserrat', sans-serif; */
 
 /* font-family: 'Poppins', sans-serif; */
+
+.girlrun{
+    height: auto;
+    position: absolute;
+    right: 46%;
+    top: 60%;
+    -webkit-transform: translate(50%,-50%);
+    transform: translate(50%,-50%);
+    width: 100%;
+    z-index: 5;
+
+}
+
+.girlredbg{
+    
+    height: auto;
+    position: absolute;
+    top: 67.7%;
+    -webkit-transform: translate(50%,-50%);
+    transform: translate(50%,-50%);
+}
+
+.girlSideText{
+    right: 84%;
+    width: 17%;
+}
+.wind{ 
+    height: auto;
+    position: absolute;
+    right: 29%;
+    top: 64.7%;
+    -webkit-transform: translate(50%,-50%);
+    transform: translate(50%,-50%);
+    width: 15%;}
+
+.girl-bg, .girl-text {
+    height: auto;
+    position: absolute;
+    top: 67.7%;
+    -webkit-transform: translate(50%,-50%);
+    transform: translate(50%,-50%);
+}

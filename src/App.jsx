@@ -3,15 +3,19 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import Nav from './components/Nav/Nav'
-import Hero from './Pages/Hero/Hero'
+import Hero from './components/Hero/Hero'
+
+import About from './components/About/About'
 
 function App() {
-  const [count, setCount] = useState(0)
+  
 
   return (
    <div className=''>
    <Nav/>
    <Hero/>
+   
+   <About/>
    </div>
   )
 }

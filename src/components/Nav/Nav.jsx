@@ -3,7 +3,7 @@ import { User, Plus,AlignJustify } from 'lucide-react';
 
 function Nav() {
   return (
-    <nav className=' flex items-center justify-between px-12 py-8 w-full'>
+    <nav className=' flex items-center justify-between px-12 py-8 w-full bg-transparent fixed top-0'>
         {/* logo */}
         <div className=" flex items-center cursor-pointer">
             {/* add images */}
