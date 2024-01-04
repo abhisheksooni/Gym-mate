@@ -5,3 +5,11 @@
 body{
     font-family: 'Montserrat', sans-serif;
 }
+
+.page-padding{
+    padding: 0 2.5rem;
+}
+.contener{
+margin: 0 auto;
+max-width: 124rem;
+}

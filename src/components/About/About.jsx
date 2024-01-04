@@ -3,14 +3,29 @@ import AboutCard from './AboutCard'
 import{gym, weightlifter, equpments , titelbg, girlrun, girlredbg, girlSideText, wind} from "./AboutImgs"
 import Button from '../Button/Button'
 import '../../App.css'
+import "../../index.css"
 
 function About() {
     
   return (
-    <section className='mt-[-5rem] flex items-center flex-col'>
+    <section className=' lg:mt-[-5rem] flex items-center flex-col lg:mb-[20rem]'>
 <AboutCard/>
 
-    <div className=" flex  items-center justify-center gap-7">
+
+    </section>
+  )
+}
+
+export default About
+
+
+
+/*
+
+add before
+-----------------------------------
+
+ <div className=" flex  items-center justify-center gap-7">
     
       <div className=" flex items-center text-center lg:text-left flex-col lg:inline m-7  w-full lg:m-0 lg:w-[35rem]">
     <div className="">
@@ -39,17 +54,12 @@ function About() {
       <Button/>
       </div>
 
-{/* img right */}
-      <div className=" w-[35rem] relative hidden lg:inline">
-    <img src={girlrun} className='girlrun' alt="" />
-    <img src={girlredbg} className='girlredbg' alt="" />
-    <img src={girlSideText} className='girlSideText' alt="" />
-    <img src={wind} className='wind' alt="" />
-      </div>
-    </div>
 
-    </section>
-  )
-}
-
-export default About
+<div className=" w-[35rem] relative hidden lg:inline">
+<img src={girlrun} className='girlrun' alt="" />
+<img src={girlredbg} className='girlredbg' alt="" />
+<img src={girlSideText} className='girlSideText' alt="" />
+<img src={wind} className='wind' alt="" />
+  </div>
+</div>
+*/
