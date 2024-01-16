@@ -4,12 +4,14 @@ import{gym, weightlifter, equpments , titelbg, girlrun, girlredbg, girlSideText,
 import Button from '../Button/Button'
 import '../../App.css'
 import "../../index.css"
+import { WhatToDo } from '../AllExport'
 
 function About() {
     
   return (
-    <section className=' lg:mt-[-5rem] flex items-center flex-col lg:mb-[20rem]'>
+    <section className=' lg:mt-[-5rem] flex items-center flex-col gap-16  lg:mb-[20rem]'>
 <AboutCard/>
+<WhatToDo/>
 
 
     </section>

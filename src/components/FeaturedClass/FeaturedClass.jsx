@@ -10,8 +10,8 @@ function FeaturedClass() {
           We Are Offering Best Flexible Classes
         </p>
       </div>
-
-      <div className=" flex flex-col lg:grid grid-cols-1 lg:grid-cols-4 *:h-[300px] w-full lg:w-[72rem] *:m-4 lg:*:m-0 lg:gap-4 *:overflow-hidden *:relative *:bg-black">
+{/*  */}
+      <div className="  items-center lg:grid grid-cols-1 lg:grid-cols-4 *:h-[300px] w-full lg:max-w-[72rem] *:m-4 lg:*:m-0 lg:gap-4 *:overflow-hidden *:relative *:bg-black">
        
         <div className=" col-span-2 ">
           {/* <div className=" absolute z-10">

@@ -15,6 +15,7 @@ export default {
         textbg:"url('./src/Images/who-we-are/title-bg.svg')",
         ci1:"url('./src/Images/classes/cycling.jpg')",
         bg2:"url('./src/Images/backgorund_image.jpg')",
+        BMIbg:"url('./src/Images/BMI/bmi.jpg')",
       }
     },
   },
