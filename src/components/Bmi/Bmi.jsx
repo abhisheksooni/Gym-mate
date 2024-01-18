@@ -64,9 +64,9 @@ function Bmi() {
       <div className=" flex gap-3 py-6 ">
 
         <div className=" w-full lg:w-56">
-       <input type="number"
-       placeholder='Weight/kg'
-       className=' text-black p-2 focus:outline-none mb-2 w-full'
+       <input type="text"
+       placeholder='Weight / kg'
+       className=' p-2 focus:outline-none mb-2 w-full text-[#fff] border-2 bg-transparent'
 
       value={weight}
       onChange={(e)=>Setweight(e.target.value)}
@@ -74,9 +74,9 @@ function Bmi() {
        <p>Your BMI is : <span className='text-red font-medium'>{bmi}</span></p>
         </div>
         <div className=" w-full lg:w-56">
-       <input type="number"
-       className=' text-black p-2 focus:outline-none mb-2 w-full'
-       placeholder='Height/cm'
+       <input type="text"
+       className=' text-[#fff] border-2 p-2 focus:outline-none mb-2 w-full bg-transparent'
+       placeholder='Height / cm'
        value={Height}
        onChange={(e)=>SetHeight(e.target.value)}
        />

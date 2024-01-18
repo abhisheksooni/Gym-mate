@@ -12,8 +12,6 @@ function About() {
     <section className=' lg:mt-[-5rem] flex items-center flex-col gap-16  lg:mb-[20rem]'>
 <AboutCard/>
 <WhatToDo/>
-
-
     </section>
   )
 }

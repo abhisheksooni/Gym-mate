@@ -8,6 +8,9 @@ import YogaAdd from "./YogaAdd/YogaAdd"
 import Button from "./Button/Button"
 import WhatToDo from "./What to do/WhatToDo"
 import Bmi from "./Bmi/Bmi"
+import Price from "./Price/Price"
+import BlogSmallCard from "./Blog/BlogSmallCard"
+import Footer from "./Footer/Footer"
 
 export{
     Nav,
@@ -19,5 +22,7 @@ export{
     Button,
     WhatToDo,
     Bmi,
-    
+    Price,
+    BlogSmallCard,
+    Footer,
 }
