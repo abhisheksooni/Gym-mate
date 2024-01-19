@@ -18,8 +18,29 @@ max-width: 124rem;
 .bg-heroBg{
     background-image: url('./Images/young-fitness-man-studio.jpg');
     width: 100%;
-    height: 110vh;
     object-fit: cover;
     background-size: cover;
     background-position: center center;
+}
+
+.bg-aboutcardbg{
+    background-image: url('./Images/home-2/background.jpg');
+}
+.bg-aboutcardbgcange{
+    background-image: url('./Images/home-2/info-card-bg.jpg');
+}
+.bg-textbg{
+    background-image: url('./Images/who-we-are/title-bg.svg');
+}
+.bg-ci1{
+    background-image: url('./Images/classes/cycling.jpg');
+}
+.bg-bg2{
+    background-image: url('./Images/backgorund_image.jpg');
+}
+.bg-BMIbg{
+    background-image: url('./Images/BMI/bmi.jpg');
+}
+.bg-addpage{
+    background-image: url('./Images/pagesStart/background.jpg');
 }

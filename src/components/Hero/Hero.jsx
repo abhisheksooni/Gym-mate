@@ -5,7 +5,7 @@ import { Github, Linkedin, Instagram } from 'lucide-react';
 
 function Hero() {
   return (
-    <section className="bg-heroBg bg-center bg-cover bg-no-repeat z-1">
+    <section className="bg-heroBg bg-no-repeat z-1">
 
       <div className="flex justify-center lg:justify-between px-0 lg:px-[3vw] items-center bg-black/70 pt-[7rem] text-[#fff] h-[100vh] ">
 
