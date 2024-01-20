@@ -11,6 +11,8 @@ import Bmi from "./Bmi/Bmi"
 import Price from "./Price/Price"
 import BlogSmallCard from "./Blog/BlogSmallCard"
 import Footer from "./Footer/Footer"
+import {Schedules,ScheduleBtn,} from "../Pages/Schedule/Schedules"
+
 
 export{
     Nav,
@@ -25,4 +27,6 @@ export{
     Price,
     BlogSmallCard,
     Footer,
+    Schedules,
+    ScheduleBtn,
 }

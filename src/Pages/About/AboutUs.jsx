@@ -14,7 +14,7 @@ function AboutUs() {
       <h1 className='pt-[18rem] text-[#fff] text-4xl font-semibold'>About Us</h1>   
       </div>
       </div>
-      <WhatToDo/>
+      <WhatToDo text={"noshow"} className={"py-10"}/>
 
 <div className=" flex justify-center items-center flex-col py-10">
 

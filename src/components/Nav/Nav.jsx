@@ -33,11 +33,12 @@ function Nav() {
             <li className=' hover:text-red'> <Link to={"/"}>Home</Link></li>
             <li className=' hover:text-red'> <Link to={"AboutUs"}>About</Link></li>
             <li className=' hover:text-red'><Link to={"gallery"}>Gallery</Link></li>
-            <li className=' hover:text-red'><Link to={"schedule"}>Schedule</Link></li>
+            <li className=' hover:text-red'><Link to={"schedule/monday"}>Schedule</Link></li>
             <li className=' hover:text-red'><Link to={"blog"}>Blog</Link></li>
             <li className=' hover:text-red'><Link to={"pricing"}>Pricing</Link></li>
             <li className=' hover:text-red'><Link to={"classes"}>Classes</Link></li>
             <li className=' hover:text-red'><Link to={"contact"}>Contact</Link></li>
+            
         </ul>
         {/* join button */}
         <div className=" flex items-center gap-3 text-white">
