@@ -10,7 +10,7 @@ function Gallery() {
     <section className='pb-10 '>
  <div className="bg-addpage bg-no-repeat  text-center">
       <div className="  h-[22rem]  bg-black/70  ">    
-      <h1 className='pt-[18rem] text-[#fff] text-4xl font-semibold'>Gallery</h1>   
+      <h1 className='pt-[16rem] text-[#fff] text-4xl font-semibold'>Gallery</h1>   
       </div>
       </div>
 

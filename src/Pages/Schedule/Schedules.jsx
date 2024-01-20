@@ -15,7 +15,7 @@ SetaddSchedule(updatedays)
   
   return (
     <div className="">
-      <div className="flex justify-center gap-4 my-16">
+      <div className="flex justify-center flex-wrap gap-4 my-16">
         
         <NavLink
         to={"monday"}
