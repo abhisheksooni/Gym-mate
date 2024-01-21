@@ -70,7 +70,7 @@ function Nav() {
 
     {/* mobile menu */}
     <div className={` flex flex-col ${mobileMenu? "":"hidden"} fixed z-[999] bg-white  top-0 left-0 right-0 w-full py-10
-     ${hamburger ? "left-0":"-left-[100%]"} 
+     ${mobileMenu ? "left-0":"-left-[100%]"} 
     `}>
         <div className=" flex w-full justify-end pr-[10vw]">
        <button
