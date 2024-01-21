@@ -74,7 +74,7 @@ const router = createBrowserRouter([
         children: [
           // Days
           {
-            path: "schedule/monday",
+            path: "monday",
             element: <Monday />,
           },
           {

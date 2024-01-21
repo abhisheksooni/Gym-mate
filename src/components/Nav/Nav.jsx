@@ -33,7 +33,7 @@ function Nav() {
             <li > <NavLink to={"/"}  className={({isActive})=>`${isActive?"text-red":""}`}>Home</NavLink></li>
             <li > <NavLink to={"AboutUs"}  className={({isActive})=>`${isActive?"text-red":""}`}>About</NavLink></li>
             <li ><NavLink to={"gallery"}  className={({isActive})=>`${isActive?"text-red":""}`}>Gallery</NavLink></li>
-            <li ><NavLink to={"/schedule/monday"} exact className={({isActive})=>`${isActive?"text-red":""}`}>Schedule</NavLink></li>
+            <li ><NavLink to={"schedule/monday"} className={({isActive})=>`${isActive?"text-red":""}`}>Schedule</NavLink></li>
             <li ><NavLink to={"blog"}  className={({isActive})=>`${isActive?"text-red":""}`}>Blog</NavLink></li>
             <li ><NavLink to={"pricing"}  className={({isActive})=>`${isActive?"text-red":""}`}>Pricing</NavLink></li>
             <li ><NavLink to={"classes"}  className={({isActive})=>`${isActive?"text-red":""}`}>Classes</NavLink></li>
