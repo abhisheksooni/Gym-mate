@@ -78,11 +78,18 @@ function Nav() {
        > <X size={30} /> </button>
        </div>
         <ul className='cursor-pointer text-xl font-medium *:mb-4 text-center'>
-            <li className=' hover:text-red'  onClick={navbtn}> <NavLink to={"/"} onClick={()=>window.top(0,0)} >Home</NavLink></li>
+
+        <li onClick={()=>window.top(0,0)} > <NavLink to={"/"}   className={({isActive})=>`${isActive?"text-red":""}`}>Home</NavLink></li>
+            <li onClick={()=>window.top(0,0)} > <NavLink to={"AboutUs"}  className={({isActive})=>`${isActive?"text-red":""}`}>About</NavLink></li>
+            <li onClick={()=>window.top(0,0)} ><NavLink to={"gallery"} className={({isActive})=>`${isActive?"text-red":""}`}>Gallery</NavLink></li>
+            <li onClick={()=>window.top(0,0)} ><NavLink to={"schedule/monday"} className={({isActive})=>`${isActive?"text-red":""}`}>Schedule</NavLink></li>
+            <li onClick={()=>window.top(0,0)} ><NavLink to={"blog"}  className={({isActive})=>`${isActive?"text-red":""}`}>Blog</NavLink></li>
+
+            {/* <li className=' hover:text-red'  onClick={navbtn}> <NavLink to={"/"} onClick={()=>window.top(0,0)} >Home</NavLink></li>
             <li className=' hover:text-red' onClick={navbtn}> <NavLink to={"AboutUs"} onClick={()=>window.top(0,0)} >About</NavLink></li>
             <li className=' hover:text-red' onClick={navbtn}><NavLink to={"gallery"} onClick={()=>window.top(0,0)}>Gallery</NavLink></li>
             <li className=' hover:text-red' onClick={navbtn}><NavLink  to={"schedule/monday"} onClick={()=>window.top(0,0)}>Schedule</NavLink></li>
-            <li className=' hover:text-red' onClick={navbtn}><NavLink to={"blog"} onClick={()=>window.top(0,0)}>Blog</NavLink></li>
+            <li className=' hover:text-red' onClick={navbtn}><NavLink to={"blog"} onClick={()=>window.top(0,0)}>Blog</NavLink></li> */}
             {/* <li className=' hover:text-red' onClick={hamburgerMenu}><NavLink to={"pricing"}>Pricing</NavLink></li> */}
             {/* <li className=' hover:text-red' onClick={hamburgerMenu}><NavLink to={"classes"}>Classes</NavLink></li> */}
             {/* <li className=' hover:text-red' onClick={hamburgerMenu}><NavLink to={"contact"}>Contact</NavLink></li> */}
