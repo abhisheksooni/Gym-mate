@@ -16,22 +16,22 @@ function AboutUs() {
       </div>
       <WhatToDo text={"noshow"} className={"py-10"}/>
 
-<div className=" flex justify-center items-center flex-col py-10">
+<div className=" flex justify-center gap-8 lg:gap-0 items-center flex-wrap flex-col py-10">
 
-  <div className=" flex">
-<div className=" text-center flex flex-col justify-center items-center max-w-[570px] px-11">
+  <div className=" flex flex-wrap justify-center gap-6 lg:gap-0 lg:flex-row">
+<div className=" text-center flex flex-col justify-center items-center max-w-[570px] px-4 xl:px-11">
   <img src={icon1}
   className='max-w-[90px]'
   alt="" />
   <h2 className='font-bold text-4xl mt-3 mb-5'>Our History</h2>
   <p className='font-medium text-base text-[#646464]'>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit Exercitation veniam consequat.</p>
    </div>
-<div className="">
+<div className="sm:min-w-[370px]">
   <img src={img1} alt="" />
 </div>
   </div>
 
-  <div className=" flex flex-row-reverse">
+  <div className=" flex  flex-wrap justify-center gap-6 lg:gap-0 flex-row-reverse">
 <div className=" text-center flex flex-col justify-center items-center max-w-[570px] px-11">
   <img src={icon2}
   className='max-w-[90px]'
@@ -39,7 +39,7 @@ function AboutUs() {
   <h2 className='font-bold text-4xl mt-3 mb-5'>Our History</h2>
   <p className='font-medium text-base text-[#646464]'>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit Exercitation veniam consequat.</p>
    </div>
-<div className="">
+<div className="sm:min-w-[370px]">
   <img src={img2} alt="" />
 </div>
   </div>

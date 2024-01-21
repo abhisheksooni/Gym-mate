@@ -5,11 +5,18 @@ import { User, Plus,AlignJustify, X } from 'lucide-react';
 function Nav() {
 
     const [ mobileMenu,SetmobileMenu ] = useState(false)
+    const [ hamburger,Sethamburger ] = useState(false)
     let b = "hidden"
 
     function navbtn (){
         SetmobileMenu(!mobileMenu)
         console.log(mobileMenu);
+    }
+
+    // menu hamburger 
+    function hamburgerMenu() {
+        Sethamburger(!hamburger)
+        console.log(hamburger);
     }
   return (
     <>   
@@ -30,21 +37,21 @@ function Nav() {
         </div>
         {/* li */}
         <ul className=' gap-5 cursor-pointer font-medium text-white hidden xl:flex hover:*:text-red'>
-            <li > <NavLink to={"/"}  className={({isActive})=>`${isActive?"text-red":""}`}>Home</NavLink></li>
-            <li > <NavLink to={"AboutUs"}  className={({isActive})=>`${isActive?"text-red":""}`}>About</NavLink></li>
-            <li ><NavLink to={"gallery"}  className={({isActive})=>`${isActive?"text-red":""}`}>Gallery</NavLink></li>
-            <li ><NavLink to={"schedule/monday"} className={({isActive})=>`${isActive?"text-red":""}`}>Schedule</NavLink></li>
-            <li ><NavLink to={"blog"}  className={({isActive})=>`${isActive?"text-red":""}`}>Blog</NavLink></li>
-            <li ><NavLink to={"pricing"}  className={({isActive})=>`${isActive?"text-red":""}`}>Pricing</NavLink></li>
-            <li ><NavLink to={"classes"}  className={({isActive})=>`${isActive?"text-red":""}`}>Classes</NavLink></li>
-            <li ><NavLink to={"contact"}  className={({isActive})=>`${isActive?"text-red":""}`}>Contact</NavLink></li>
+            <li > <NavLink to={"/"} onClick={()=>window.top(0,0)}  className={({isActive})=>`${isActive?"text-red":""}`}>Home</NavLink></li>
+            <li > <NavLink to={"AboutUs"} onClick={()=>window.top(0,0)} className={({isActive})=>`${isActive?"text-red":""}`}>About</NavLink></li>
+            <li ><NavLink to={"gallery"} onClick={()=>window.top(0,0)} className={({isActive})=>`${isActive?"text-red":""}`}>Gallery</NavLink></li>
+            <li ><NavLink to={"schedule/monday"} onClick={()=>window.top(0,0)} className={({isActive})=>`${isActive?"text-red":""}`}>Schedule</NavLink></li>
+            <li ><NavLink to={"blog"} onClick={()=>window.top(0,0)} className={({isActive})=>`${isActive?"text-red":""}`}>Blog</NavLink></li>
+            {/* <li ><NavLink to={"pricing"}  className={({isActive})=>`${isActive?"text-red":""}`}>Pricing</NavLink></li> */}
+            {/* <li ><NavLink to={"classes"}  className={({isActive})=>`${isActive?"text-red":""}`}>Classes</NavLink></li> */}
+            {/* <li ><NavLink to={"contact"}  className={({isActive})=>`${isActive?"text-red":""}`}>Contact</NavLink></li> */}
             
         </ul>
         {/* join button */}
         <div className=" flex items-center gap-3 text-white">
             {/* mobile Menu btn */}
              <button className='xl:hidden'
-             onClick={navbtn}
+             onClick={hamburgerMenu}
              >               
                  <AlignJustify size={27}/>             
                 </button>   
@@ -67,21 +74,23 @@ function Nav() {
     
 
     {/* mobile menu */}
-    <div className={` flex flex-col ${mobileMenu? "":"hidden"} fixed z-[999] bg-white  top-0 left-0 right-0 w-full py-10 `}>
+    <div className={` flex flex-col ${hamburgerMenu? "":"hidden"} fixed z-[999] bg-white  top-0 left-0 right-0 w-full py-10
+     ${hamburger ? "left-0":"-left-[100%]"} 
+    `}>
         <div className=" flex w-full justify-end pr-[10vw]">
        <button
-       onClick={navbtn}
+       onClick={hamburgerMenu}
        > <X size={30} /> </button>
        </div>
         <ul className='cursor-pointer text-xl font-medium *:mb-4 text-center'>
-            <li className=' hover:text-red'> <NavLink to={"/"}>Home</NavLink></li>
-            <li className=' hover:text-red'> <NavLink to={"AboutUs"}>About</NavLink></li>
-            <li className=' hover:text-red'><NavLink to={"gallery"}>Gallery</NavLink></li>
-            <li className=' hover:text-red'><NavLink  to={"schedule/monday"}>Schedule</NavLink></li>
-            <li className=' hover:text-red'><NavLink to={"blog"}>Blog</NavLink></li>
-            <li className=' hover:text-red'><NavLink to={"pricing"}>Pricing</NavLink></li>
-            <li className=' hover:text-red'><NavLink to={"classes"}>Classes</NavLink></li>
-            <li className=' hover:text-red'><NavLink to={"contact"}>Contact</NavLink></li>
+            <li className=' hover:text-red'  onClick={hamburgerMenu}> <NavLink to={"/"} onClick={()=>window.top(0,0) } >Home</NavLink></li>
+            <li className=' hover:text-red' onClick={hamburgerMenu}> <NavLink to={"AboutUs"} onClick={()=>window.top(0,0) } >About</NavLink></li>
+            <li className=' hover:text-red' onClick={hamburgerMenu}><NavLink to={"gallery"} onClick={()=>window.top(0,0) } >Gallery</NavLink></li>
+            <li className=' hover:text-red' onClick={hamburgerMenu}><NavLink  to={"schedule/monday"} onClick={()=>window.top(0,0) } >Schedule</NavLink></li>
+            <li className=' hover:text-red' onClick={hamburgerMenu}><NavLink to={"blog"} onClick={()=>window.top(0,0) } >Blog</NavLink></li>
+            {/* <li className=' hover:text-red' onClick={hamburgerMenu}><NavLink to={"pricing"}>Pricing</NavLink></li> */}
+            {/* <li className=' hover:text-red' onClick={hamburgerMenu}><NavLink to={"classes"}>Classes</NavLink></li> */}
+            {/* <li className=' hover:text-red' onClick={hamburgerMenu}><NavLink to={"contact"}>Contact</NavLink></li> */}
         </ul>
     </div>
     </nav>

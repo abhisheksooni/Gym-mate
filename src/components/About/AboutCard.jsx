@@ -26,7 +26,7 @@ function AboutCard() {
   ];
 
   return (
-  <div className=" flex justify-center gap-7 flex-col lg:flex-row">
+  <div className=" flex justify-center  gap-7 flex-col lg:flex-row">
     {imgs.map((i)=>{
       return <div key={i.title} className=" m-7 p-6 px-12 lg:max-w-[360px] text-center lg:m-0 lg:px-6 cursor-pointer flex shadow-xl shadow-black items-center flex-col gap-4 bg-aboutcardbg hover:bg-aboutcardbgcange hover:text-white">
             <img src={i.img}
