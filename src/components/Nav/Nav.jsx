@@ -50,7 +50,7 @@ function Nav() {
         <div className=" flex items-center gap-3 text-white">
             {/* mobile Menu btn */}
              <button className='xl:hidden'
-             onClick={hamburgerMenu}
+             onClick={navbtn}
              >               
                  <AlignJustify size={27}/>             
                 </button>   
@@ -66,19 +66,15 @@ function Nav() {
             </button>
 
         </div>
-
-
-
-
-    
+   
 
     {/* mobile menu */}
-    <div className={` flex flex-col ${hamburger? "":"hidden"} fixed z-[999] bg-white  top-0 left-0 right-0 w-full py-10
+    <div className={` flex flex-col ${mobileMenu? "":"hidden"} fixed z-[999] bg-white  top-0 left-0 right-0 w-full py-10
      ${hamburger ? "left-0":"-left-[100%]"} 
     `}>
         <div className=" flex w-full justify-end pr-[10vw]">
        <button
-       onClick={hamburgerMenu}
+       onClick={navbtn}
        > <X size={30} /> </button>
        </div>
         <ul className='cursor-pointer text-xl font-medium *:mb-4 text-center'>
