@@ -112,7 +112,7 @@ const recentImg = [
 {/* Blog card */}
 {
   blogs.map((i)=>(
-    <div  key={Math.random} className="">
+    <div  key={Math.random()} className="">
 <div className=" my-10 max-w-[745px]">
 <img src={i.img} alt="" />
 <div className="px-1">
