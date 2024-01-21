@@ -115,7 +115,7 @@ const recentImg = [
     <div  key={Math.random} className="">
 <div className=" my-10 max-w-[745px]">
 <img src={i.img} alt="" />
-<div className="px-3">
+<div className="px-1">
 
 <div className=" flex items-center text-base text-[#646464] mt-2">
 <Newspaper size={18}/>
