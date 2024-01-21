@@ -45,7 +45,8 @@ function Home() {
         span={"call : "}
         pp={"+91 888-8888"}
       />
-    <Footer/>
+      {/* fix this */}
+    {/* <Footer/> */}
     </div>
   );
 }

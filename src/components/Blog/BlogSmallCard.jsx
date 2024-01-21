@@ -1,10 +1,10 @@
 import React,{useState} from "react";
+import { Button } from "../AllExport";
+import { ThumbsUp } from 'lucide-react';
 import img1 from "../../Images/blogpage/1.jpg";
 import img2 from "../../Images/blogpage/2.jpg";
 import img3 from "../../Images/blogpage/3.jpg";
 import img4 from "../../Images/blogpage/4.jpg";
-import { Button } from "../AllExport";
-import { ThumbsUp } from 'lucide-react';
 
 function BlogSmallCard() {
   const i = [

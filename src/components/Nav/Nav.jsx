@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { NavLink, Link } from 'react-router-dom';
+import { NavLink, } from 'react-router-dom';
 import { User, Plus,AlignJustify, X } from 'lucide-react';
 
 function Nav() {
@@ -29,28 +29,28 @@ function Nav() {
             </div>
         </div>
         {/* li */}
-        <ul className=' gap-5 cursor-pointer font-medium text-white hidden xl:flex '>
-            <li className=' hover:text-red'> <Link to={"/"}>Home</Link></li>
-            <li className=' hover:text-red'> <Link to={"AboutUs"}>About</Link></li>
-            <li className=' hover:text-red'><Link to={"gallery"}>Gallery</Link></li>
-            <li className=' hover:text-red'><Link to={"schedule/monday"}>Schedule</Link></li>
-            <li className=' hover:text-red'><Link to={"blog"}>Blog</Link></li>
-            <li className=' hover:text-red'><Link to={"pricing"}>Pricing</Link></li>
-            <li className=' hover:text-red'><Link to={"classes"}>Classes</Link></li>
-            <li className=' hover:text-red'><Link to={"contact"}>Contact</Link></li>
+        <ul className=' gap-5 cursor-pointer font-medium text-white hidden xl:flex hover:*:text-red'>
+            <li > <NavLink to={"/"}  className={({isActive})=>`${isActive?"text-red":""}`}>Home</NavLink></li>
+            <li > <NavLink to={"AboutUs"}  className={({isActive})=>`${isActive?"text-red":""}`}>About</NavLink></li>
+            <li ><NavLink to={"gallery"}  className={({isActive})=>`${isActive?"text-red":""}`}>Gallery</NavLink></li>
+            <li ><NavLink to={"schedule/monday"} exact className={({isActive})=>`${isActive?"text-red":""}`}>Schedule</NavLink></li>
+            <li ><NavLink to={"blog"}  className={({isActive})=>`${isActive?"text-red":""}`}>Blog</NavLink></li>
+            <li ><NavLink to={"pricing"}  className={({isActive})=>`${isActive?"text-red":""}`}>Pricing</NavLink></li>
+            <li ><NavLink to={"classes"}  className={({isActive})=>`${isActive?"text-red":""}`}>Classes</NavLink></li>
+            <li ><NavLink to={"contact"}  className={({isActive})=>`${isActive?"text-red":""}`}>Contact</NavLink></li>
             
         </ul>
         {/* join button */}
         <div className=" flex items-center gap-3 text-white">
-            {/* mobile btn */}
-
+            {/* mobile Menu btn */}
              <button className='xl:hidden'
              onClick={navbtn}
              >               
                  <AlignJustify size={27}/>             
                 </button>   
-
-            <button className='hover:text-red'><User /></button>
+                {/* Login user */}
+                <NavLink to={"login"}  className={({isActive})=>`${isActive?"text-red":""} hover:text-red`}><User /></NavLink>
+            {/* <button className=''></button> */}
             
             <button className='items-center font-semibold gap-2 border-2 p-1.5 px-2 hidden sm:flex'>
                <span className=' bg-red p-1'>
@@ -74,14 +74,14 @@ function Nav() {
        > <X size={30} /> </button>
        </div>
         <ul className='cursor-pointer text-xl font-medium *:mb-4 text-center'>
-            <li className=' hover:text-red'> <Link to={"/"}>Home</Link></li>
-            <li className=' hover:text-red'> <Link to={"AboutUs"}>About</Link></li>
-            <li className=' hover:text-red'><Link to={"gallery"}>Gallery</Link></li>
-            <li className=' hover:text-red'><Link to={"schedule"}>Schedule</Link></li>
-            <li className=' hover:text-red'><Link to={"blog"}>Blog</Link></li>
-            <li className=' hover:text-red'><Link to={"pricing"}>Pricing</Link></li>
-            <li className=' hover:text-red'><Link to={"classes"}>Classes</Link></li>
-            <li className=' hover:text-red'><Link to={"contact"}>Contact</Link></li>
+            <li className=' hover:text-red'> <NavLink to={"/"}>Home</NavLink></li>
+            <li className=' hover:text-red'> <NavLink to={"AboutUs"}>About</NavLink></li>
+            <li className=' hover:text-red'><NavLink to={"gallery"}>Gallery</NavLink></li>
+            <li className=' hover:text-red'><NavLink to={"schedule"}>Schedule</NavLink></li>
+            <li className=' hover:text-red'><NavLink to={"blog"}>Blog</NavLink></li>
+            <li className=' hover:text-red'><NavLink to={"pricing"}>Pricing</NavLink></li>
+            <li className=' hover:text-red'><NavLink to={"classes"}>Classes</NavLink></li>
+            <li className=' hover:text-red'><NavLink to={"contact"}>Contact</NavLink></li>
         </ul>
     </div>
     </nav>
