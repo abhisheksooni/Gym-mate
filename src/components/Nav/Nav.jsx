@@ -77,7 +77,7 @@ function Nav() {
             <li className=' hover:text-red'> <NavLink to={"/"}>Home</NavLink></li>
             <li className=' hover:text-red'> <NavLink to={"AboutUs"}>About</NavLink></li>
             <li className=' hover:text-red'><NavLink to={"gallery"}>Gallery</NavLink></li>
-            <li className=' hover:text-red'><NavLink to={"schedule"}>Schedule</NavLink></li>
+            <li className=' hover:text-red'><NavLink  to={"schedule/monday"}>Schedule</NavLink></li>
             <li className=' hover:text-red'><NavLink to={"blog"}>Blog</NavLink></li>
             <li className=' hover:text-red'><NavLink to={"pricing"}>Pricing</NavLink></li>
             <li className=' hover:text-red'><NavLink to={"classes"}>Classes</NavLink></li>
