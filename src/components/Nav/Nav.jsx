@@ -6,7 +6,6 @@ function Nav() {
 
     const [ mobileMenu,SetmobileMenu ] = useState(false)
     const [ hamburger,Sethamburger ] = useState(false)
-    let b = "hidden"
 
     function navbtn (){
         SetmobileMenu(!mobileMenu)
@@ -37,11 +36,11 @@ function Nav() {
         </div>
         {/* li */}
         <ul className=' gap-5 cursor-pointer font-medium text-white hidden xl:flex hover:*:text-red'>
-            <li > <NavLink to={"/"} onClick={()=>window.top(0,0)}  className={({isActive})=>`${isActive?"text-red":""}`}>Home</NavLink></li>
-            <li > <NavLink to={"AboutUs"} onClick={()=>window.top(0,0)} className={({isActive})=>`${isActive?"text-red":""}`}>About</NavLink></li>
-            <li ><NavLink to={"gallery"} onClick={()=>window.top(0,0)} className={({isActive})=>`${isActive?"text-red":""}`}>Gallery</NavLink></li>
-            <li ><NavLink to={"schedule/monday"} onClick={()=>window.top(0,0)} className={({isActive})=>`${isActive?"text-red":""}`}>Schedule</NavLink></li>
-            <li ><NavLink to={"blog"} onClick={()=>window.top(0,0)} className={({isActive})=>`${isActive?"text-red":""}`}>Blog</NavLink></li>
+            <li > <NavLink to={"/"}  onClick={hamburgerMenu}  className={({isActive})=>`${isActive?"text-red":""}`}>Home</NavLink></li>
+            <li > <NavLink to={"AboutUs"}  onClick={hamburgerMenu} className={({isActive})=>`${isActive?"text-red":""}`}>About</NavLink></li>
+            <li ><NavLink to={"gallery"}  onClick={hamburgerMenu} className={({isActive})=>`${isActive?"text-red":""}`}>Gallery</NavLink></li>
+            <li ><NavLink to={"schedule/monday"}  onClick={hamburgerMenu} className={({isActive})=>`${isActive?"text-red":""}`}>Schedule</NavLink></li>
+            <li ><NavLink to={"blog"}  onClick={hamburgerMenu} className={({isActive})=>`${isActive?"text-red":""}`}>Blog</NavLink></li>
             {/* <li ><NavLink to={"pricing"}  className={({isActive})=>`${isActive?"text-red":""}`}>Pricing</NavLink></li> */}
             {/* <li ><NavLink to={"classes"}  className={({isActive})=>`${isActive?"text-red":""}`}>Classes</NavLink></li> */}
             {/* <li ><NavLink to={"contact"}  className={({isActive})=>`${isActive?"text-red":""}`}>Contact</NavLink></li> */}
@@ -74,7 +73,7 @@ function Nav() {
     
 
     {/* mobile menu */}
-    <div className={` flex flex-col ${hamburgerMenu? "":"hidden"} fixed z-[999] bg-white  top-0 left-0 right-0 w-full py-10
+    <div className={` flex flex-col ${hamburger? "":"hidden"} fixed z-[999] bg-white  top-0 left-0 right-0 w-full py-10
      ${hamburger ? "left-0":"-left-[100%]"} 
     `}>
         <div className=" flex w-full justify-end pr-[10vw]">
