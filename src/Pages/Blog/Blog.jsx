@@ -100,12 +100,12 @@ const recentImg = [
     <section className=' pb-10'>
       {/* Background img */}
     <div className="bg-addpage bg-no-repeat  text-center">
-    <div className="  h-[22rem]  bg-black/70  ">    
+    <div className="  h-[22rem]  bg-bgColor1/70  ">    
     <h1 className='pt-[16rem] text-[#fff] text-4xl font-semibold'>Blogs</h1>   
     </div>
     </div>
 
-    <div className=" mt-12 p-5 flex flex-wrap gap-10 justify-center">
+    <div className=" bg-bgColor1 pt-12 p-5 flex flex-wrap gap-10 justify-center">
 {/* Blog */}
     <div className=" max-w-[745px]">
     
@@ -114,17 +114,17 @@ const recentImg = [
   blogs.map((i)=>(
     <div  key={Math.random()} className="">
 <div className=" my-10 max-w-[745px]">
-<img src={i.img} alt="" />
+<img src={i.img} alt=""  className='rounded-lg'/>
 <div className="px-1">
 
-<div className=" flex items-center text-base text-[#646464] mt-2">
+<div className=" flex items-center text-base text-text2 mt-2">
 <Newspaper size={18}/>
 <span>-  By <span className='font-semibold'>Admin</span> | March 11,2024 | Yoga </span>
 </div>
 {/* Hading */}
-<h1 className=' text-[2.5rem] leading-10 font-bold my-4'>{i.Hadding}</h1>
-<p className='text-base text-[#646464] mb-4'>{i.discripson}</p>
-<Button addclass={" text-[#fff]"} />
+<h1 className=' text-[2.5rem] leading-10 text-text1 font-bold my-4'>{i.Hadding}</h1>
+<p className='text-base text-text2 mb-4'>{i.discripson}</p>
+<Button text='More' />
 </div>
 </div>
 </div>
@@ -139,18 +139,18 @@ const recentImg = [
 <div className=" flex items-center mx-auto h-[60px] border-[1px] rounded-xl">
   <input type="search"
   placeholder='Search...'
-  className='h-full p-4 font-medium outline-none  text-[18px] rounded-s-xl'
+  className='h-full p-4 font-medium outline-none bg-transparent text-text1 text-[18px] rounded-s-xl'
   />
   {/* <button>X</button> */}
-  <button className='px-4 bg-red h-full text-white rounded-r-xl'><Search strokeWidth={3} /></button>
+  <button className='px-4 hover:text-gold h-full text-text1 rounded-r-xl'><Search strokeWidth={3} /></button>
 </div> 
 
 {/* Categories */}
 
 <div className=" pl-2 py-4">
-  <p className=' my-1 pl-4 font-bold text-lg'>Categories</p>
+  <p className=' my-1 pl-4 font-bold text-lg text-text1'>Categories</p>
 
-  <div className="flex justify-between px-1 items-center font-semibold cursor-pointer text-[#7e7e7e] hover:text-[#ff0336] border-b-2 pb-3 py-2">
+  <div className="flex justify-between px-1 items-center font-semibold cursor-pointer text-text2 hover:text-text1 border-b-2 pb-3 py-2">
     <div className="flex">
   <ChevronRight/>
     <p > Boxing</p>
@@ -158,7 +158,7 @@ const recentImg = [
     <span >( 5 )</span>
   </div>
 
-  <div className="flex justify-between px-1 items-center font-semibold cursor-pointer text-[#7e7e7e] hover:text-[#ff0336] border-b-2 pb-3 py-2">
+  <div className="flex justify-between px-1 items-center font-semibold cursor-pointer text-text2 hover:text-text1 border-b-2 pb-3 py-2">
     <div className="flex">
   <ChevronRight/>
     <p > Boxing</p>
@@ -166,7 +166,7 @@ const recentImg = [
     <span >( 5 )</span>
   </div>
 
-  <div className="flex justify-between px-1 items-center font-semibold cursor-pointer text-[#7e7e7e] hover:text-[#ff0336] border-b-2 pb-3 py-2">
+  <div className="flex justify-between px-1 items-center font-semibold cursor-pointer text-text2 hover:text-text1 border-b-2 pb-3 py-2">
     <div className="flex">
   <ChevronRight/>
     <p > Boxing</p>
@@ -174,7 +174,7 @@ const recentImg = [
     <span >( 5 )</span>
   </div>
 
-  <div className="flex justify-between px-1 items-center font-semibold cursor-pointer text-[#7e7e7e] hover:text-[#ff0336] border-b-2 pb-3 py-2">
+  <div className="flex justify-between px-1 items-center font-semibold cursor-pointer text-text2 hover:text-text1 border-b-2 pb-3 py-2">
     <div className="flex">
   <ChevronRight/>
     <p > Boxing</p>
@@ -182,7 +182,7 @@ const recentImg = [
     <span >( 5 )</span>
   </div>
 
-  <div className="flex justify-between px-1 items-center font-semibold cursor-pointer text-[#7e7e7e] hover:text-[#ff0336] border-b-2 pb-3 py-2">
+  <div className="flex justify-between px-1 items-center font-semibold cursor-pointer text-text2 hover:text-text1 border-b-2 pb-3 py-2">
     <div className="flex">
   <ChevronRight/>
     <p > Boxing</p>
@@ -195,15 +195,16 @@ const recentImg = [
 
 {/* recent  */}
 <ul className=' my-4'>
+<p className='font-bold text-xl my-4 text-text1'>Popular Tags</p>
   {
     recentImg.map(e=>(
       <li key={Math.random()} className=' flex items-center my-4'>
       <img src={e.img} alt=""
-      className=' w-[100px] cursor-pointer'
+      className=' w-[100px] cursor-pointer rounded-lg'
       />
       <div className="p-3">
-        <p className=' font-medium text-[#7e7e7e]'>16 March 2024</p>
-        <p className=' font-semibold text-xl hover:text-red cursor-pointer'>{e.discripson}</p>
+        <p className=' font-medium text-text1'>16 March 2024</p>
+        <p className=' font-semibold text-lg text-text2 hover:text-text1 cursor-pointer'>{e.discripson}</p>
       </div>
     </li>
     ))
@@ -214,8 +215,8 @@ const recentImg = [
 
 {/* tags */}
 <div className="">
-<p className='font-bold text-xl my-4'>Popular Tags</p>
-<div className=" flex flex-wrap gap-x-5 gap-y-3 text-lg font-medium text-[#7e7e7e] hover:*:text-red">
+<p className='font-bold text-xl my-4 text-text1'>Popular Tags</p>
+<div className=" flex flex-wrap gap-x-5 gap-y-3 text-lg font-medium text-text2 hover:*:text-text1">
 <span>#Crossfit</span>
 <span>#Fitness</span>
 <span>#Gym</span>

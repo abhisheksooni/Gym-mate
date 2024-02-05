@@ -6,7 +6,13 @@ export default {
     extend: {
       colors:{
         'red':"#FF0336",
-        'heroBgColor':"#0C1114"
+        'gold':"#F6AE4F",
+        'heroBgColor':"#0C1114",
+        'bgColor1':"#111317",
+        'bgColor2':"#1F2125",
+        'boxHoverColor':"#1F2125",
+        'text1':"#F3F0EC",
+        'text2':"#ADB0B6",
       },
       backgroundImage:{
         // 'heroBg': 'url("./src/Images/young-fitness-man-studio.jpg")',
