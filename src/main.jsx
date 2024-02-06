@@ -17,12 +17,12 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Root from "./Router/Root.jsx";
 import { Schedules } from "./components/AllExport.js";
 // import {Monday,Friday,Thursday,Tuesday,Saturday,Wednesday} from './components/Schedule/Days/Days.jsx'
-import Monday from "./Pages/Schedule/dd/Monday.jsx";
-import Friday from "./Pages/Schedule/dd/Friday.jsx";
-import Saturday from "./Pages/Schedule/dd/Saturday.jsx";
-import Thursday from "./Pages/Schedule/dd/Thursday.jsx";
-import Tuesday from "./Pages/Schedule/dd/Tuesday.jsx";
-import Wednesday from "./Pages/Schedule/dd/Wednesday.jsx";
+import Monday from "./Pages/Schedule/Day/Monday.jsx";
+import Friday from "./Pages/Schedule/Day/Friday.jsx";
+import Saturday from "./Pages/Schedule/Day/Saturday.jsx";
+import Thursday from "./Pages/Schedule/Day/Thursday.jsx";
+import Tuesday from "./Pages/Schedule/Day/Tuesday.jsx";
+import Wednesday from "./Pages/Schedule/Day/Wednesday.jsx";
 
 const router = createBrowserRouter([
   {

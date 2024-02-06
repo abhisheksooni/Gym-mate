@@ -10,7 +10,7 @@ export default {
         'heroBgColor':"#0C1114",
         'bgColor1':"#111317",
         'bgColor2':"#1F2125",
-        'boxHoverColor':"#1F2125",
+        'boxHoverColor':"#35373B",
         'text1':"#F3F0EC",
         'text2':"#ADB0B6",
       },

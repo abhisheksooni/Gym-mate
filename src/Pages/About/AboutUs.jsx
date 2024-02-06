@@ -8,13 +8,13 @@ import icon2 from "../../Images/About/target.png"
 
 function AboutUs() {
   return (
-    <section className=' pb-10'>
+    <section className=' pb-10 bg-bgColor1'>
       <div className="bg-addpage bg-no-repeat  text-center">
-      <div className="  h-[22rem]  bg-black/70  ">    
+      <div className="  h-[22rem]  bg-bgColor1/70  ">    
       <h1 className='pt-[16rem] text-[#fff] text-4xl font-semibold'>About Us</h1>   
       </div>
       </div>
-      <WhatToDo text={"noshow"} className={"py-10"}/>
+      {/* <WhatToDo text={"noshow"} className={"py-10"}/> */}
 
 <div className=" flex justify-center gap-8 lg:gap-0 items-center flex-wrap flex-col py-10">
 
@@ -23,8 +23,8 @@ function AboutUs() {
   <img src={icon1}
   className='max-w-[90px]'
   alt="" />
-  <h2 className='font-bold text-4xl mt-3 mb-5'>Our History</h2>
-  <p className='font-medium text-base text-[#646464]'>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit Exercitation veniam consequat.</p>
+  <h2 className='font-bold text-4xl mt-3 mb-5 text-text1'>Our History</h2>
+  <p className='font-medium text-base text-text2'>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit Exercitation veniam consequat.</p>
    </div>
 <div className="sm:min-w-[370px]">
   <img src={img1} alt="" />
@@ -36,8 +36,8 @@ function AboutUs() {
   <img src={icon2}
   className='max-w-[90px]'
   alt="" />
-  <h2 className='font-bold text-4xl mt-3 mb-5'>Our History</h2>
-  <p className='font-medium text-base text-[#646464]'>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit Exercitation veniam consequat.</p>
+  <h2 className='font-bold text-4xl mt-3 mb-5 text-text1'>Our History</h2>
+  <p className='font-medium text-base text-text2'>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit Exercitation veniam consequat.</p>
    </div>
 <div className="sm:min-w-[370px]">
   <img src={img2} alt="" />

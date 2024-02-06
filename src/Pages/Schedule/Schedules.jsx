@@ -19,42 +19,42 @@ SetaddSchedule(updatedays)
         
         <NavLink
         to={"monday"} 
-        className={ ({isActive})=>` ${isActive? "bg-red text-white" : ""} rounded-3xl border-2 py-2 px-5 font-medium hover:bg-red hover:text-white `}
+        className={ ({isActive})=>` ${isActive? "bg-gradient-to-br text-white" : ""} from-[#F19935] to-[#E7BF85] rounded-3xl border border-gold py-2 px-5 font-medium hover:bg-gradient-to-br hover:text-white `}
         >
             Monday
         
         </NavLink>
         <NavLink
         to="tuesday"
-        className={ ({isActive})=>` ${isActive? "bg-red text-white" : ""} rounded-3xl border-2 py-2 px-5 font-medium hover:bg-red hover:text-white `}
+        className={ ({isActive})=>` ${isActive? "bg-gradient-to-br text-white" : ""} from-[#F19935] to-[#E7BF85] rounded-3xl border border-gold py-2 px-5 font-medium hover:bg-gradient-to-br hover:text-white `}
         >
             Tuesday
         
         </NavLink>
         <NavLink
         to="wednesday"
-        className={ ({isActive})=>` ${isActive? "bg-red text-white" : ""} rounded-3xl border-2 py-2 px-5 font-medium hover:bg-red hover:text-white `}
+        className={ ({isActive})=>` ${isActive? "bg-gradient-to-br text-white" : ""} from-[#F19935] to-[#E7BF85] rounded-3xl border border-gold py-2 px-5 font-medium hover:bg-gradient-to-br hover:text-white `}
         >
             Wednesday
         
         </NavLink>
         <NavLink
         to="thursday"
-        className={ ({isActive})=>` ${isActive? "bg-red text-white" : ""} rounded-3xl border-2 py-2 px-5 font-medium hover:bg-red hover:text-white `}
+        className={ ({isActive})=>` ${isActive? "bg-gradient-to-br text-white" : ""} from-[#F19935] to-[#E7BF85] rounded-3xl border border-gold py-2 px-5 font-medium hover:bg-gradient-to-br hover:text-white `}
         >
            Thursday
         
         </NavLink>
         <NavLink
         to="friday"
-       className={ ({isActive})=>` ${isActive? "bg-red text-white" : ""} rounded-3xl border-2 py-2 px-5 font-medium hover:bg-red hover:text-white `}
+       className={ ({isActive})=>` ${isActive? "bg-gradient-to-br text-white" : ""} from-[#F19935] to-[#E7BF85] rounded-3xl border border-gold py-2 px-5 font-medium hover:bg-gradient-to-br hover:text-white `}
         >
             Friday
         
         </NavLink>
         <NavLink
         to={"saturday"}
-       className={ ({isActive})=>` ${isActive? "bg-red text-white" : ""} rounded-3xl border-2 py-2 px-5 font-medium hover:bg-red hover:text-white `}
+       className={ ({isActive})=>` ${isActive? "bg-gradient-to-br text-white" : ""} from-[#F19935] to-[#E7BF85] rounded-3xl border border-gold py-2 px-5 font-medium hover:bg-gradient-to-br hover:text-white `}
         >
            Saturday
         
@@ -82,7 +82,7 @@ SetaddSchedule(updatedays)
           </div>
 
           
-          <button className="bg-[#555555] text-white py-2 px-5 rounded-3xl font-medium hover:bg-red">
+          <button className="bg-[#555555] text-white py-2 px-5 rounded-3xl font-medium hover:bg-gold">
             Join Now
           </button>
         </div>
@@ -95,7 +95,7 @@ function btn(fb, day) {
   return (
     <button
       onClick={fb}
-      className=" rounded-3xl border-2 py-2 px-5 font-medium hover:bg-red hover:text-white "
+      className=" rounded-3xl border-2 py-2 px-5 font-medium hover:bg-gold hover:text-white "
     >
       <span>{day}</span>
     </button>
@@ -138,7 +138,7 @@ function ScheduleBtn() {
       {day.map((i) => (
         <button
           key={i.id}
-          className=" rounded-3xl border-2 py-2 px-5 font-medium hover:bg-red hover:text-white "
+          className=" rounded-3xl border-2 py-2 px-5 font-medium hover:bg-gold hover:text-white "
         >
           <span>{i.day}</span>
         </button>
