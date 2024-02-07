@@ -8,6 +8,7 @@ import Pricing from "./Priceing/Priceing"
 import Schedule from "./Schedule/Schedule"
 import PageNotFound from "./PageNotFound/PageNotFound"
 
+
 export{
     Home,
     AboutUs,
@@ -18,5 +19,6 @@ export{
     Pricing,
     Schedule,
     PageNotFound,
+    
 
 }

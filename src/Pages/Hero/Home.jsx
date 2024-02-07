@@ -17,14 +17,16 @@ import {
   Price,
   BlogSmallCard,
   Footer,
+  Services,
 } from "../../components/AllExport";
 
 function Home() {
   return (
-    <div className="">
+    <div className=" bg-bgColor1">
       <Nav />
       <Hero />
-      <About />
+      <Services/>
+      {/* <About /> */}
       <FeaturedClass />
       <YogaAdd />
       <Trainer />

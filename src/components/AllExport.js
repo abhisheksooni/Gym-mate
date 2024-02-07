@@ -12,7 +12,7 @@ import Price from "./Price/Price"
 import BlogSmallCard from "./Blog/BlogSmallCard"
 import Footer from "./Footer/Footer"
 import {Schedules,ScheduleBtn,} from "../Pages/Schedule/Schedules"
-
+import Services from "./Featured Services/Services"
 
 export{
     Nav,
@@ -29,4 +29,5 @@ export{
     Footer,
     Schedules,
     ScheduleBtn,
+    Services,
 }
