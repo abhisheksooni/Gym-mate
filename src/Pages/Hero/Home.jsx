@@ -31,7 +31,7 @@ function Home() {
       <YogaAdd />
       <Trainer />
       {/* gyms comp. logos */}
-      <div className=" my-12 flex justify-center gap-8 p-5 overflow-x-scroll lg:*:max-w-38">
+      <div className=" my-12 flex justify-center gap-8 p-5 overflow-x-scroll lg:overflow-hidden ease-in duration-150 hover:*:scale-105 lg:*:max-w-38">
         <img src={logo1} alt="logos" />
         <img src={logo2} alt="logos" />
         <img src={logo3} alt="logos" />
@@ -46,6 +46,8 @@ function Home() {
         p={"Phone "}
         span={"call : "}
         pp={"+91 888-8888"}
+        btntext="Join Now"
+        className="mb-0"
       />
       {/* fix this */}
     {/* <Footer/> */}

@@ -1,19 +1,20 @@
 import React from 'react'
 import { Button } from '../AllExport'
+import { CheckCircle } from 'lucide-react';
 
 function PriceCard() {
   return (
-    <div className=' text-center max-w-[360px] bg-slate-500 *:mb-3 px-6 py-4 rounded-md'>
-        <p className='font-semibold text-2xl'>Stended</p>
-        <p className='text-xl font-semibold'>Rs.499<span className='text-xs font-normal'>/Month</span></p>
-        <ul className='*:mb-2'>
-         <li>Free Hand</li>
-         <li>Gym Fitness</li>
-         <li>Weight Loss</li>
-         <li>Personal Trainer</li>
-         <li>Cycling</li>
+    <div className='  max-w-[250px] w-full bg-bgColor2 *:mb-3 px-6 py-8 rounded-md border border-transparent hover:border-gold'>
+        <p className='font-medium text-2xl text-text2'>Stended</p>
+        <p className='text-2xl font-bold text-text1'>Rs.499<span className='text-xs font-normal'>/Month</span></p>
+        <ul className='*:mb-2 text-text2  *:flex *:gap-2'>
+         <li><CheckCircle color='#F2A851'/> <p>Free Hand</p></li>
+         <li><CheckCircle color='#F2A851'/> Gym Fitness</li>
+         <li><CheckCircle color='#F2A851'/> Weight Loss</li>
+         <li><CheckCircle color='#F2A851'/> Personal Trainer</li>
+         <li><CheckCircle color='#F2A851'/> Cycling</li>
         </ul>
-        <Button addclass="text-[#fff] mt-8"/>
+        <Button  text='Join Now' addclass="py-0 mt-8"/>
     </div>
   )
 }

@@ -3,9 +3,17 @@ import { Facebook,  Instagram, Twitter, Youtube } from 'lucide-react';
 function Footer() {
   return (
     
-    <section className='bg-bgColor1 text-text2 flex justify-evenly flex-col px-5 items-center lg:flex-row lg:items-start '>
-<div className="max-w-[450px] *:mb-4 flex flex-col items-center text-center lg:items-start lg:text-start">
-   <p className=' text-text1'>Add-logo</p>
+    <section className='bg-bgColor1 text-text2 flex justify-evenly flex-col px-5 items-center lg:flex-row lg:items-start py-10'>
+<div className="max-w-[450px] *:mb-4 flex flex-col items-center text-center lg:items-start lg:text-start ">
+    <div className="font-bold">
+                <span className=' text-3xl text-gold'>G
+                <span className='text-2xl text-white '>YM </span>
+                </span>
+                <span className='text-2xl text-white font-normal'>MATE</span>
+                <div className=" font-medium text-xs text-white">
+                    <span>ULTIMATE GYM CENTER</span>
+                </div>
+            </div>
    <p className=''>Take your health and body to the next level with our comprehensive program designed to help you reach your fitness goals.</p>
    <ul className='flex gap-4 *:rounded-full *:p-2  hover:*:bg-gold hover:*:text-[#fff] hover:*:cursor-pointer '>
     <li><Facebook/></li>

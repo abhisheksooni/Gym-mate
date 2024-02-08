@@ -59,7 +59,7 @@ function Bmi() {
   return (
     <div className="  p-4 text-white bg-BMIbg bg-no-repeat">
     <div className=" py-8 lg:pl-20">
-      <p className=' font-bold text-5xl lg:text-5xl'>Let's Calculate Your <span className='text-red'>BMI</span></p>
+      <p className=' font-bold text-5xl lg:text-5xl'>Let's Calculate Your <span className='text-gold'>BMI</span></p>
       <p className='text-[16px] text-[#a1a1a1]'>Easily determine your body mass index with our accurate calculation tool.</p>
       <div className=" flex gap-3 py-6 ">
 
@@ -71,16 +71,16 @@ function Bmi() {
       value={weight}
       onChange={(e)=>Setweight(e.target.value)}
        />
-       <p>Your BMI is : <span className='text-red font-medium'>{bmi}</span></p>
+       <p>Your BMI is : <span className='text-gold font-medium'>{bmi}</span></p>
         </div>
         <div className=" w-full lg:w-56">
        <input type="text"
-       className=' text-[#fff] border-2 p-2 focus:outline-none mb-2 w-full bg-transparent'
+       className=' text-text1 border-2 p-2 focus:outline-none mb-2 w-full bg-transparent'
        placeholder='Height / cm'
        value={Height}
        onChange={(e)=>SetHeight(e.target.value)}
        />
-        <p>Your weight is : <span className='text-red font-medium'>{bmiHealth}</span></p>
+        <p>Your weight is : <span className='text-gold font-medium'>{bmiHealth}</span></p>
         </div>
 
       </div>

@@ -5,6 +5,7 @@ export default {
   theme: {
     extend: {
       colors:{
+        'PriceColor':"#F2A851",
         'red':"#FF0336",
         'gold':"#F6AE4F",
         'heroBgColor':"#0C1114",
