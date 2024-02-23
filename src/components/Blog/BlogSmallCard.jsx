@@ -59,7 +59,7 @@ className=" bg-bgColor2 hover:bg-boxHoverColor p-2 max-w-[370px] flex items-cent
 
       <h2 className="font-semibold text-lg my-2 mt-4 text-text1">{e.Hadding}</h2>
       <p className="font-medium text-text2 text-sm">{e.discripson}  </p>
-      <Button addclass={" py-0 px-1.7 my-2 mt-6"} text="More"/>
+      <Button addclass={" py-0 px-1.7 my-2 mt-6"} to={"/blog"} text="More"/>
     </div>
       ))
      

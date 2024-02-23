@@ -14,7 +14,7 @@ function PriceCard() {
          <li><CheckCircle color='#F2A851'/> Personal Trainer</li>
          <li><CheckCircle color='#F2A851'/> Cycling</li>
         </ul>
-        <Button  text='Join Now' addclass="py-0 mt-8"/>
+        <Button  text='Join Now' to={"/contact"} addclass="py-0 mt-8"/>
     </div>
   )
 }

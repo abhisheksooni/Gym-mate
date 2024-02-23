@@ -21,7 +21,7 @@ function Hero() {
       <p className=" text-6xl font-bold">MAKE <span className=" text-gold">YOUR</span>  BODY</p>
       <p className=" font-semibold text-5xl mt-5 mb-8">FIT <span className=" text-gold">&</span> PERFECT</p>
       {/* add button */}
-      <Button text="Our Class" addclass={"m-auto lg:m-0"}/>
+      <Button text="Our Class" to={"/contact"} addclass={"m-auto lg:m-0"}/>
         </div>
         </div>
     </section>

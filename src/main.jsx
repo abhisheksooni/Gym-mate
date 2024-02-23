@@ -62,6 +62,10 @@ const router = createBrowserRouter([
         element: <Schedule />,
       },
       {
+        path: "contact",
+        element: <Contact/>,
+      },
+      {
         path: "*",
         element: <PageNotFound />,
       },

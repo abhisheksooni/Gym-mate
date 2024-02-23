@@ -28,7 +28,7 @@ function Home() {
       <Services/>
       {/* <About /> */}
       <FeaturedClass />
-      <YogaAdd />
+      <YogaAdd to={"/contact"} btntext={"Join Now"} />
       <Trainer />
       {/* gyms comp. logos */}
       <div className=" my-12 flex justify-center gap-8 p-5 overflow-x-scroll lg:overflow-hidden ease-in duration-150 hover:*:scale-105 lg:*:max-w-38">
@@ -39,7 +39,7 @@ function Home() {
         <img src={logo5} alt="logos" />
       </div>
       <Bmi />
-      <Price />
+      <Price  />
       <BlogSmallCard />
       <YogaAdd
         h={"Need a Fitness Trainer?"}
@@ -47,7 +47,8 @@ function Home() {
         span={"call : "}
         pp={"+91 888-8888"}
         btntext="Join Now"
-        className="mb-0"
+        className="mb-0" 
+        to={"/contact"}
       />
       {/* fix this */}
     {/* <Footer/> */}

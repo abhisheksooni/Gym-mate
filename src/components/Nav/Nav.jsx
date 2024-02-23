@@ -58,12 +58,14 @@ function Nav() {
                 <NavLink to={"login"}  className={({isActive})=>`${isActive?"text-gold":""} hover:text-gold`}><User /></NavLink>
             {/* <button className=''></button> */}
             
+            <NavLink to={"/contact"}>
             <button className='items-center font-semibold gap-2 border-2 p-1.5 px-2 hidden sm:flex border-[#E7BF85] hover:text-[#E7BF85]'>
                <span className='  p-1'>
                 <Plus size={27} />
                </span>
                  JOIN CLASS NOW
             </button>
+            </NavLink>
 
         </div>
    
