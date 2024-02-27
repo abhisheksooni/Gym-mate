@@ -7,8 +7,9 @@ import icon1 from "../../Images/About/mountain.png"
 import icon2 from "../../Images/About/target.png"
 
 function AboutUs() {
+  window.scroll(0,0)
   return (
-    <section className=' pb-10 bg-bgColor1'>
+    <section className=' pb-10 bg-bgColor1 duration-150'>
       <div className="bg-addpage bg-no-repeat  text-center">
       <div className="  h-[22rem]  bg-bgColor1/70  ">    
       <h1 className='pt-[16rem] text-[#fff] text-4xl font-semibold'>About Us</h1>   

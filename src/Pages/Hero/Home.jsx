@@ -21,8 +21,11 @@ import {
 } from "../../components/AllExport";
 
 function Home() {
+
+  window.scroll(0,0)
+
   return (
-    <div className=" bg-bgColor1">
+    <div className=" bg-bgColor1 duration-150">
       <Nav />
       <Hero />
       <Services/>

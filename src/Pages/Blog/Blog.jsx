@@ -96,8 +96,9 @@ const recentImg = [
   },
 ]
 
+window.scroll(0,0)
   return (
-    <section className='bg-bgColor1 pb-10'>
+    <section className='bg-bgColor1 pb-10 duration-150'>
       {/* Background img */}
     <div className="bg-addpage bg-no-repeat  text-center">
     <div className="  h-[22rem]  bg-bgColor1/70  ">    
