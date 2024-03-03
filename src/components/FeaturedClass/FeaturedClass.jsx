@@ -24,7 +24,7 @@ function FeaturedClass() {
               Wednesday: 9:00am-10:00am
             </p>
           </div>
-          <div className=" bg-ci1 bg-no-repeat bg-center bg-cover h-full opacity-70 hover:opacity-100 hover:scale-110 ease-in duration-200 "></div>
+          <div className=" bg-ci1 bg-no-repeat bg-center bg-cover h-full opacity-70 hover:opacity-100 hover:scale-105 ease-in duration-200 "></div>
         </div>
 
         <div className="">
@@ -34,7 +34,7 @@ function FeaturedClass() {
               Friday: 10:00am-11:00am
             </p>
           </div>
-          <div className=" bg-ci1 bg-no-repeat bg-center bg-cover h-full opacity-70 hover:opacity-100 hover:scale-110 ease-in duration-200"></div>
+          <div className=" bg-ci1 bg-no-repeat bg-center bg-cover h-full opacity-70 hover:opacity-100 hover:scale-105 ease-in duration-200"></div>
         </div>
         <div className="">
           <div className="absolute z-10 text-text1 bottom-5 left-4">
@@ -43,7 +43,7 @@ function FeaturedClass() {
               Saturday: 9:00am-10:00am
             </p>
           </div>
-          <div className=" bg-ci1 bg-no-repeat bg-center bg-cover h-full opacity-70 hover:opacity-100 hover:scale-110 ease-in duration-200 "></div>
+          <div className=" bg-ci1 bg-no-repeat bg-center bg-cover h-full opacity-70 hover:opacity-100 hover:scale-105 ease-in duration-200 "></div>
         </div>
 
         <div className="">
@@ -53,7 +53,7 @@ function FeaturedClass() {
               Friday: 1:00pm-2:00pm
             </p>
           </div>
-          <div className=" bg-ci1 bg-no-repeat bg-center bg-cover h-full opacity-70 hover:opacity-100 hover:scale-110 ease-in duration-200"></div>
+          <div className=" bg-ci1 bg-no-repeat bg-center bg-cover h-full opacity-70 hover:opacity-100 hover:scale-105 ease-in duration-200"></div>
         </div>
         <div className="">
           <div className="absolute z-10 text-text1 bottom-5 left-4">
@@ -62,7 +62,7 @@ function FeaturedClass() {
               Sundday: 6:00pm-7:00pm
             </p>
           </div>
-          <div className=" bg-ci1 bg-no-repeat bg-center bg-cover h-full opacity-70 hover:opacity-100 hover:scale-110 ease-in duration-200"></div>
+          <div className=" bg-ci1 bg-no-repeat bg-center bg-cover h-full opacity-70 hover:opacity-100 hover:scale-105 ease-in duration-200"></div>
         </div>
         <div className="col-span-2">
           <div className="absolute z-10 text-text1 bottom-5 left-4">
@@ -71,7 +71,7 @@ function FeaturedClass() {
               Monday: 4:00pm-5:00pm
             </p>
           </div>
-          <div className=" bg-ci1 bg-no-repeat bg-center bg-cover h-full opacity-70 hover:opacity-100 hover:scale-110 ease-in duration-200"></div>
+          <div className=" bg-ci1 bg-no-repeat bg-center bg-cover h-full opacity-70 hover:opacity-100 hover:scale-105 ease-in duration-200"></div>
         </div>
       </div>
     </section>
