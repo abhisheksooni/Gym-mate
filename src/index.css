@@ -32,6 +32,7 @@ max-width: 124rem;
 .bg-textbg{
     background-image: url('./Images/who-we-are/title-bg.svg');
 }
+
 .bg-ci1{
     background-image: url('./Images/classes/cycling.jpg');
 }
@@ -49,6 +50,9 @@ max-width: 124rem;
 }
 .bg-ci6{
     background-image: url('./Images/classes/powerlifting.jpg');
+}
+.addbg2{
+    background-image: url('./Images/backgorund_image.jpg');
 }
 
 .bg-BMIbg{
