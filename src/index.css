@@ -35,9 +35,22 @@ max-width: 124rem;
 .bg-ci1{
     background-image: url('./Images/classes/cycling.jpg');
 }
-.bg-bg2{
-    background-image: url('./Images/backgorund_image.jpg');
+.bg-ci2{
+    background-image: url('./Images/classes/bodybuilding.jpg');
 }
+.bg-ci3{
+    background-image: url('./Images/classes/box.jpg');
+}
+.bg-ci4{
+    background-image: url('./Images/classes/cross.jpg');
+}
+.bg-ci5{
+    background-image: url('./Images/classes/karate.jpg');
+}
+.bg-ci6{
+    background-image: url('./Images/classes/powerlifting.jpg');
+}
+
 .bg-BMIbg{
     background-image: url('./Images/BMI/bmi.jpg');
 }
