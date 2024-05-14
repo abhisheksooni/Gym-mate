@@ -12,8 +12,11 @@ function Contact() {
   </div>
   </div>
 {/* More data */}
-<div className='py-10 flex justify-center lg:h-[70vh] text-gold'>
-  <form>
+<div className='py-10 flex justify-center lg:h-[70vh] text-gold '>
+ 
+
+
+  <form className=''>
     <label>Name</label>
     <br />
     <input type="text" placeholder='Your name' className='bg-transparent text-white border rounded-xl pl-3 my-2 outline-text1'/>
@@ -26,10 +29,10 @@ function Contact() {
     <br />
     <input type="text" placeholder='Your number' className='bg-transparent text-white border rounded-xl pl-3 my-2 outline-text1'/>
     <br />
-  </form>
     <button onClick={()=>setdone('Done')} className='border-2 border-white px-6 py-1 mt-5 rounded-full'>
       Send
     </button>
+  </form>
   <span className=' text-[#fff] text-2xl font-semibold'>{done}</span>
 </div>
     </section>
