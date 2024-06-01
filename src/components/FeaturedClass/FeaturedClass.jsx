@@ -3,7 +3,7 @@ import bike from "../../Images/features/gym-bike.png";
 
 function FeaturedClass() {
   return (
-    <section className=" mx-auto max-w-[124rem] mb-14 flex items-center flex-col ">
+    <section className=" mx-auto max-w-[124rem] my-10 flex items-center flex-col ">
       <div className=" text-center">
         <p className="  font-bold text-[36px] text-text1 mt-8">OUR FEATURED CLASS</p>
         <p className="text-xl text-text2  mb-8 mt-1">
@@ -11,7 +11,7 @@ function FeaturedClass() {
         </p>
       </div>
 {/*  */}
-      <div className="  items-center lg:grid grid-cols-1 lg:grid-cols-4 *:h-[300px] w-full lg:max-w-[72rem] *:m-4 lg:*:m-0 lg:gap-4 *:overflow-hidden *:relative *:bg-black ">
+      <div className="  items-center lg:grid grid-cols-1 lg:grid-cols-4 *:h-[300px] w-full lg:max-w-[72rem] *:m-4 lg:*:m-0 lg:gap-4 *:overflow-hidden *:relative *:bg-black my-10">
        
        {/* All add animesons */}
         <div className=" col-span-2   ">

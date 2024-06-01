@@ -33,7 +33,7 @@ function Services() {
 
 
   return (
-    <section className=' text-text2 px-4'>
+    <section className=' text-text2 px-4 my-10'>
         <div className="">
         <p className=' uppercase text-center my-5 mt-8 font-bold text-[36px] text-text1'>Freatured Services</p>
         </div>

@@ -41,7 +41,7 @@ function BlogSmallCard() {
     <p className=" m-auto max-w-[560px] text-text2">Gymat an unknown printer took a galley of type and scrambled
 make a type specimen book.</p>
 
-  <div className=" flex items-center justify-center flex-wrap gap-6 p-6">
+  <div className=" flex items-center justify-center flex-wrap gap-6 mt-5 p-6">
     {
       i.map((e)=>(
 <div
