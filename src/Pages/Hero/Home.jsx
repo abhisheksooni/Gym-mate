@@ -33,14 +33,7 @@ function Home() {
       <FeaturedClass />
       <YogaAdd to={"/contact"} btntext={"Join Now"} />
       <Trainer />
-      {/* gyms comp. logos */}
-      <div className=" my-12 flex justify-center gap-8 p-5 overflow-x-scroll lg:overflow-hidden ease-in duration-150 hover:*:scale-105 lg:*:max-w-38">
-        <img src={logo1} alt="logos" />
-        <img src={logo2} alt="logos" />
-        <img src={logo3} alt="logos" />
-        <img src={logo4} alt="logos" />
-        <img src={logo5} alt="logos" />
-      </div>
+
       <Bmi />
       <Price  />
       <BlogSmallCard />
@@ -53,6 +46,14 @@ function Home() {
         className="mb-0" 
         to={"/contact"}
       />
+            {/* gyms comp. logos */}
+            <div className=" py-10 flex justify-center gap-8 p-5 overflow-x-scroll lg:overflow-hidden ease-in duration-150 hover:*:scale-105 lg:*:max-w-38">
+        <img src={logo1} alt="logos" />
+        <img src={logo2} alt="logos" />
+        <img src={logo3} alt="logos" />
+        <img src={logo4} alt="logos" />
+        <img src={logo5} alt="logos" />
+      </div>
       {/* fix this */}
     {/* <Footer/> */}
     </div>
