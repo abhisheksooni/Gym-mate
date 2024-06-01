@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Facebook,  Instagram, Twitter, Youtube } from 'lucide-react';
-import googleMapReact from 'google-map-react';
+
 
 function Contact() {
 
